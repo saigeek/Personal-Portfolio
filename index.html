@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai's Portfolio</title>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="header">
+     <div class="container">
+        
+        <nav>
+            <img src="images/Sai.png" class="logo">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>   
+        </ul>
+        
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>Hi, I'm <span>Sai</span>.<br> A coffe addict</h1>
+        </div>
+    
+    </div>
+    </div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img class="sizing" src="images/PHOTO-2022-11-10-16-04-50.jpg">
+            </div> 
+            <div class="about-col-2">
+            <h1 class="subtitle"> About me</h1>
+            <P>Hey there! I'm Sai Krishna, A coffee enthusiast and tech enthusiast. Currently, I'm knee-deep into my B.Tech journey, majoring in Information and Communication Technology you know, the cool stuff that makes our digital world tick! 
+
+                But here's the fun part: I've got a knack for making people laugh with my killer sense of humor. It's not just about coding and studying; I believe a good laugh can make any day brighter. 
+                
+                Speaking of coding, I'm super stoked about Full Stack Development, bridging the gap between front-end and back-end is like my tech dream come true.  When I'm not caffeinating myself with my beloved coffee, you'll often find me exploring new programming languages and building awesome web applications.
+                
+                Let's connect and share a virtual coffee sometime! </P>
+
+                <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Node</span> JS</li>
+                        <li><span>Express</span> JS</li>
+                        <li><span>REST</span> API</li>
+                        <li><span>Mongo</span>DB</li>
+                        <li><span>React</span> JS</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>KurukSastra</span> <br> -Marketing Team</li>
+                        <li><span>Complete Web Development Bootcamp</span> <br> -UDEMY</li>
+                        <li><span>Captain</span> <br> -Sastra Football Team</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>B.Tech-Information and Communication Technology</span> <br> at SASTRA University</li>
+                        <li><span>12th </span> <br> at Sree Narayana Mission Higher Secondary School</li>
+                        <li><span>10th</span> <br>  at Sree Narayana Mission Higher Secondary School</li>
+                        
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+        
+    </div>
+
+</div> 
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle"> My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Task-Naut.png">
+                <div class="layer">
+                    <h3>TaskNaut</h3>
+                    <p>TaskNaut is a task management website. Seamlessly steer through tasks, navigate productivity, and conquer challenges.</p>
+                    <a href="https://github.com/saigeek/TaskNaut"><img src="images/noun-eye-1768405.png" width="70%" height="70%"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images\Blog-mind.png">
+                <div class="layer">
+                    <h3>BLOG-MIND</h3>
+                    <p>Blog-Mind: Where Expressive Blogging Meets Easy navigation. Join on this journey to unleash your thoughts.</p>
+                    <a href="https://lazy-ruby-dibbler-boot.cyclic.app/"><img src="images/noun-eye-1768405.png" width="70%" height="70%"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/fotor-ai-2023090421194.jpg">
+                <div class="layer">
+                    <h3>A deep learning technique for intrusion detection system using a RNN</h3>
+                    <p>Strengthening security of network systems with a ML-based IDS framework.</p>
+                </div>
+                    
+            </div>
+        </div>
+        <a href="https://github.com/saigeek" class="btn">see more</a>
+    </div>
+</div>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p>saisbkrishna@gmail.com</p>
+                <p>9043676332</p>
+                <div class="social-icons">
+                    <a href="https://github.com/saigeek"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+                </div>
+                <a href="images\124014040 - sai krishna.pdf" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email id" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+            
+        </div>
+
+    </div>   
+</div>
+<div class="copyright">
+    <P>A SaiKrishna website</P>
+</div>
+
+
+<script>
+    var tablinks= document.getElementsByClassName("tab-links");
+    var tabcontents= document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxvVLWcY9x3WOWkDNuNZYQ4Y7XF06HzUxAF2HohqmBqvwLmBrRYXGxOoL94FEzk0Xa2/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML= "Form submitted successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },4000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
